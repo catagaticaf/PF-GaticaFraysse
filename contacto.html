@@ -4,64 +4,151 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/favicon2.png" />
+    <link class="head__icon" rel="shortcut icon" href="./img/favicon2.png" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- link mi css -->
+    <link rel="stylesheet" href="style.css" />
+
     <title>Nutriplus+</title>
   </head>
   <body>
-    <header>
-      <p>logo empresa</p>
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./sobremi.html">Sobre mí</a>
-          </li>
-          <li>
-            <a href="./nutricion.html">Nutrición</a>
-          </li>
-          <li>
-            <a href="./cursos.html">Cursos</a>
-            <ul>
-              <li>Workshops</li>
-              <li>Webinar</li>
+    <div class="fixed">
+      <img src="./img/logochat.png" alt="chat" width="70px" height="70px" />
+    </div>
+    <header class="main__header">
+      <img class="main__header__logo" src="./img/miproyectologo2.png" />
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobremi.html">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nutricion.html">Nutrición</a>
+              </li>
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recetarios.html">Recetarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./carrito.html"
+                  ><img src="./img/iconocarrito.png" alt="" width="20px"
+                /></a>
+              </li>
             </ul>
-          </li>
-          <li>
-            <a href="./recetarios.html">recetarios</a>
-          </li>
-          <li>
-            <a href="./contacto.html">contacto</a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <fieldset>
-      <p>Formulario de contacto</p>
-      <form action="">
-        <label for="name">Nombre y apellido</label>
-        <input type="text" name="name" />
-        <label for="email">Correo electrónico</label>
-        <input type="email" name="email" />
-        <label for="number">Número de télefono</label>
-        <input type="number" name="number" />
-        <textarea name="message" cols="30" rows="10"></textarea>
-        <label for="Prepaga">Prepaga (osde/swissmedical)</label>
-        <input type="radio" name="Prepaga" value="Prepaga" />
-        <label for="Particular">Particular</label>
-        <input type="radio" name="Particular" value="Particular" />
-        <input type="submit" name="Enviar" value="Enviar formulario" />
+    <div class="formulario">
+      <h1 class="header__contacto">Entremos en contacto!</h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nombre completo</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label"
+            >Dirección de correo electrónico</label
+          >
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label"
+            >Número de teléfono</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="+54911000000"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label"
+            >Escriba aquí su consulta</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Mensaje"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Cobertura médica</label>
+          <select id="inputState" class="form-select">
+            <option selected>Seleccione...</option>
+            <option>Swissmedical</option>
+            <option>Osde</option>
+            <option>IOMA</option>
+            <option>Otro</option>
+            <option>Particular</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success bg-success">
+            Enviar
+          </button>
+        </div>
       </form>
-    </fieldset>
-    <p>whatsapp</p>
-    <p>mail</p>
-    <p>dirección</p>
-    <p>inertar mapa</p>
-    <footer>
-      <p>logo empresa</p>
-      <p>datos de contacto</p>
-      <p>redes sociales</p>
+      <div class="ubicacion">
+        <h3>Encontra el consultorio</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10846.028242177239!2d-57.96113746580087!3d-34.92036052649794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ffaec3bf616e000!2sPlaza%20Moreno!5e0!3m2!1ses!2sar!4v1665024606475!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+    <footer class="footer">
+      <img class="logo__footer" src="./img/miproyectologo3.png" />
+      <div class="whatsapp">
+        <img
+          src="./img/iconowhatsapp.png"
+          alt="whatsapp"
+          width="20px"
+          height="20px"
+        />
+        <p class="whatsapp__numero">+5492994551906</p>
+      </div>
+      <div class="mail">
+        <img src="./img/iconomail.png" alt="mail" width="20px" height="20px" />
+        <p class="mail__direccion">cata.gatica.f@hotmail.com</p>
+      </div>
+      <div class="instagram">
+        <img
+          src="./img/iconoinstagram.png"
+          alt="instagram"
+          width="20px"
+          height="20px"
+        />
+        <p class="instagram__usuario">@catagaticaf</p>
+      </div>
     </footer>
   </body>
 </html>
