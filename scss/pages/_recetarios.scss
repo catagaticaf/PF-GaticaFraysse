@@ -1,0 +1,120 @@
+// mobile
+@media screen and (max-width: 768px) {
+  /* estilos recetarios */
+  .recetarios__encabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color:#c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+    padding-top: 50px;
+  }
+  .recetarios__main {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recetarios__animaciones {
+    padding-top: 50px;
+    text-align: center;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+  }
+  /* fin estilos recetarios */
+}
+
+// deskstop
+@media (min-width: 992px) {
+  /* estilos recetarios */
+  .recetarios__encabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 150px;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .recetarios__main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    align-items: center;
+    color: #224b0c;
+  }
+  .card:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .card {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .recetario__2:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__3:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__4:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__5:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__6:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__7:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__8:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetario__9:hover {
+    transform: scale(1.2);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .recetarios__animaciones {
+    padding-top: 50px;
+    text-align: center;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+  }
+  /* fin estilos recetarios */
+}

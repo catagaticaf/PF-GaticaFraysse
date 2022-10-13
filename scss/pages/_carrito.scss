@@ -1,0 +1,34 @@
+// mobile
+@media screen and (max-width: 768px) {
+  /* inicio estilos carrito */
+  .header__carrito {
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .botones__carrito{
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+// deskstop
+@media (min-width: 992px) {
+  /* inicio estilos carrito */
+  .main__carrito {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .header__carrito {
+    padding-top: 150px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .botones__carrito {
+    padding-top: 20px;
+  }
+  /* fin estilos carrito */
+}

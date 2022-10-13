@@ -1,0 +1,21 @@
+@import "./complementos/variables";
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./complementos/mixins";
+@import "./pages/index";
+@import "./pages/recetarios";
+@import "./pages/carrito";
+@import "./pages/sobremi";
+@import "./pages/nutricion";
+@import "./pages/contacto";
+
+
+
+
+
+

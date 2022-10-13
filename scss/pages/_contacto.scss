@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  /* inicio estilos contacto  */
+  .formulario {
+    color: #c1d5a4;
+    text-align: center;
+  }
+  /* fin estilos contacto */
+}
+
+@media (min-width: 992px) {
+  /* inicio estilos contacto */
+  .header__contacto {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .formulario {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 150px;
+    font-family: "Montserrat", sans-serif;
+    color: #c1d5a4;
+  }
+  .ubicacion {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  /* fin estilos contacto */
+}

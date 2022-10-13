@@ -1,0 +1,14 @@
+// mobile first
+@media screen and (max-width: 768px) {
+}
+// deskstop
+@media (min-width: 992px) {
+  /* inicio estilos nutrición */
+  .main__nutricion {
+    padding-top: 150px;
+  }
+  .accordion {
+    padding-top: 150px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
