@@ -1,7 +1,7 @@
 {
-  "name": "coder-preentrega2",
+  "name": "coder-preentrega3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nutriplus es una página destinada a presentar el perfil profesional de la licenciada en nutrición Catalina Gatica, junto con los servicios que presta y los servicios que ofrece",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/catagaticaf/PreEntrega2-GaticaFraysse2.git"
   },
-  "author": "",
+  "author": "Catalina Gatica",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/catagaticaf/PreEntrega2-GaticaFraysse2/issues"

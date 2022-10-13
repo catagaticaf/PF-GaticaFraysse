@@ -8443,7 +8443,7 @@ textarea.form-control-lg {
   .cards__container {
     padding: 10px 0px 0px 0px; }
   .background_inicio {
-    background-image: url(../img/miproyecto17.jpg);
+    background-image: url(../img/miproyecto17.webp);
     width: 100vw;
     height: 350px;
     padding: 100px 0px 150px 0px; }
@@ -8487,7 +8487,7 @@ textarea.form-control-lg {
     font-family: "Montserrat", sans-serif;
     font-size: 0.6rem;
     text-align: justify;
-    width: 90%;
+    width: 95%;
     bottom: 50px;
     padding-top: 10px; }
   .card2 {
@@ -8506,6 +8506,7 @@ textarea.form-control-lg {
       padding-right: 10px;
       padding-top: 10px; }
     .card2__subtitulo {
+      width: 90%;
       font-family: "Montserrat", sans-serif;
       font-size: 1rem;
       text-align: center;
@@ -8514,7 +8515,7 @@ textarea.form-control-lg {
       bottom: 470px;
       padding-top: 30px; }
     .card2__parrafo {
-      width: 90%;
+      width: 95%;
       font-family: "Montserrat", sans-serif;
       font-size: 0.6rem;
       text-align: justify;
@@ -8629,7 +8630,7 @@ textarea.form-control-lg {
     justify-content: center;
     flex-direction: column; }
   .background_inicio {
-    background-image: url(../img/miproyecto17.jpg);
+    background-image: url(../img/miproyecto17.webp);
     width: 100%;
     height: 600px;
     padding: 250px 0px 250px 0px; }
