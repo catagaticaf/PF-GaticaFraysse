@@ -58,18 +58,24 @@
     grid-template-rows: repeat(3, 1fr);
     width: 80%;
   }
+  .card1{
+    width: 100%;
+  }
   .sobre__mi__foto {
     @include box-shadow(1);
     grid-area: foto;
   }
   .sobre__mi__estudios {
+    @include box-shadow (1);
     grid-area: sobremi;
     align-self: center;
   }
   .sobre__mi__info1 {
+    @include box-shadow (1);
     grid-area: info-1;
   }
   .sobre__mi__info2 {
+    @include box-shadow (1);
     grid-area: info-2;
   }
   .sobre__mi__info3 {

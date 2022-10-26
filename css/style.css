@@ -8422,7 +8422,7 @@ textarea.form-control-lg {
 @media screen and (max-width: 768px) {
   /* inicio estilos main header  */
   .main__header {
-    background-image: url(../img/miproyecto43.jpg);
+    background-image: url(../img/miproyecto43.webp);
     color: #224b0c;
     font-family: "Montserrat", sans-serif;
     font-size: 0.6rem;
@@ -8446,7 +8446,8 @@ textarea.form-control-lg {
     background-image: url(../img/miproyecto17.webp);
     width: 100vw;
     height: 350px;
-    padding: 100px 0px 150px 0px; }
+    padding: 100px 0px 150px 0px;
+    background-size: cover; }
     .background_inicio__main_title {
       font-size: 2rem;
       font-family: "Montserrat", sans-serif;
@@ -8481,7 +8482,6 @@ textarea.form-control-lg {
     bottom: 500px;
     padding-top: 30px; }
   .card__imagen {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     padding: 40px 20px;
     height: 300px; }
   .card__parrafo {
@@ -8552,7 +8552,7 @@ textarea.form-control-lg {
   /* fin estilos contenido principal  */
   /* inicio estilos footer  */
   .footer {
-    background-image: url(../img/miproyecto43.jpg);
+    background-image: url(../img/miproyecto43.webp);
     background-color: #c1d5a4;
     font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
@@ -8604,7 +8604,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   /* inicio estilos main header  */
   .main__header {
-    background-image: url(../img/miproyecto43.jpg);
+    background-image: url(../img/miproyecto43.webp);
     color: #224b0c;
     font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
@@ -8634,7 +8634,8 @@ textarea.form-control-lg {
     background-image: url(../img/miproyecto17.webp);
     width: 100%;
     height: 600px;
-    padding: 250px 0px 250px 0px; }
+    padding: 250px 0px 250px 0px;
+    background-size: cover; }
     .background_inicio__main_title {
       font-size: 5rem;
       font-family: "Montserrat", sans-serif;
@@ -8660,10 +8661,12 @@ textarea.form-control-lg {
     transform: translate(0px, -20px);
     transition: all 2s; }
   .card1 {
-    margin: 30px 30px;
+    margin: 30px 0px;
     background: linear-gradient(to right, white, #ecf3e1);
     display: flex;
-    align-items: space-between; }
+    align-items: space-between;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .card__imagen {
     padding: 40px;
     width: 400px; }
@@ -8686,11 +8689,13 @@ textarea.form-control-lg {
     bottom: 200px;
     right: 100px; }
   .card2 {
-    margin: 30px 30px;
+    margin: 30px 0px;
     background: linear-gradient(to left, white, #ecf3e1);
     text-align: right;
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse; }
+    flex-direction: row-reverse;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
     .card2__imagen {
       padding: 40px;
       left: 700px;
@@ -8714,11 +8719,13 @@ textarea.form-control-lg {
     right: 200px;
     padding-top: 20px; }
   .card3 {
-    margin: 30px 30px;
+    margin: 30px 0px;
+    width: 100%;
     background: linear-gradient(to right, white, #ecf3e1);
-    display: flex; }
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
     .card3__imagen {
-      padding: 40px;
+      padding: 40px 0px 40px 40px;
       width: 400px; }
     .card3__contenido {
       padding-top: 50px;
@@ -8731,17 +8738,18 @@ textarea.form-control-lg {
       left: 250px;
       bottom: 500px; }
     .card3__parrafo {
-      width: 500px;
+      width: 100%;
       font-family: "Montserrat", sans-serif;
       font-size: 1.2rem;
       text-align: justify;
       bottom: 100px;
       right: 100px;
-      padding-top: 20px; }
+      padding-top: 20px;
+      padding-right: 30px; }
   /* fin estilos contenido principal  */
   /* inicio estilos footer  */
   .footer {
-    background-image: url(../img/miproyecto43.jpg);
+    background-image: url(../img/miproyecto43.webp);
     background-color: #c1d5a4;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
@@ -8962,36 +8970,88 @@ textarea.form-control-lg {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: repeat(3, 1fr);
     width: 80%; }
+  .card1 {
+    width: 100%; }
   .sobre__mi__foto {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     grid-area: foto; }
   .sobre__mi__estudios {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     grid-area: sobremi;
     align-self: center; }
   .sobre__mi__info1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     grid-area: info-1; }
   .sobre__mi__info2 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     grid-area: info-2; }
   .sobre__mi__info3 {
     grid-area: info-3; } }
+
+@media screen and (max-width: 768px) {
+  .nutricion__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 50px;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579); }
+  .accordion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+    .accordion-header {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem; }
+    .accordion-button {
+      font-size: 1.5rem;
+      color: #c1d5a4;
+      text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579); } }
 
 @media (min-width: 992px) {
   /* inicio estilos nutrición */
   .main__nutricion {
     padding-top: 150px; }
+  .nutricion__title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 50px;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579); }
   .accordion {
-    padding-top: 150px;
-    font-family: "Montserrat", sans-serif; } }
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; }
+    .accordion-header {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem; }
+    .accordion-button {
+      font-size: 1.5rem;
+      color: #c1d5a4;
+      text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579); } }
 
 @media screen and (max-width: 768px) {
   /* inicio estilos contacto  */
   .formulario {
     color: #c1d5a4;
     text-align: center; }
+  .ubicacion {
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579); }
   /* fin estilos contacto */ }
 
 @media (min-width: 992px) {
   /* inicio estilos contacto */
+  .main__header {
+    z-index: 9999; }
   .header__contacto {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -9002,6 +9062,8 @@ textarea.form-control-lg {
     padding-right: 20px;
     padding-top: 150px;
     font-family: "Montserrat", sans-serif;
+    color: #c1d5a4; }
+  .input-group {
     color: #c1d5a4; }
   .ubicacion {
     text-align: center;
