@@ -4,8 +4,7 @@
   .sobre__mi {
     display: flex;
     justify-content: space-around;
-  }
-  .sobre__mi__wrapper {
+    &__wrapper {
     padding-top: 150px;
     padding-left: 50px;
     padding-right: 50px;
@@ -18,7 +17,36 @@
     grid-template-rows: repeat(3, 1fr);
     width: 80%;
   }
-
+  }
+  .header__sobremi {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+    color: #c1d5a4;
+    &__titulo {
+      text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  /* inicio estilos sobre mi */
+  .sobre__mi {
+    display: flex;
+    justify-content: space-around;
+      &__wrapper {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-areas:
+      "foto info-1"
+      "foto info-2"
+      "sobremi info-3";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+  }
+  }
   .header__sobremi {
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -35,17 +63,7 @@
   .sobre__mi {
     display: flex;
     justify-content: space-around;
-  }
-  .header__sobremi {
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 150px;
-    color: #c1d5a4;
-  }
-  .header__sobremi__titulo {
-    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
-  }
-  .sobre__mi__wrapper {
+    &__wrapper {
     padding-top: 150px;
     padding-left: 50px;
     padding-right: 50px;
@@ -58,27 +76,37 @@
     grid-template-rows: repeat(3, 1fr);
     width: 80%;
   }
-  .card1{
-    width: 100%;
-  }
-  .sobre__mi__foto {
+    &__foto {
     @include box-shadow(1);
     grid-area: foto;
   }
-  .sobre__mi__estudios {
+    &__estudios {
     @include box-shadow (1);
     grid-area: sobremi;
     align-self: center;
   }
-  .sobre__mi__info1 {
+    &__info1 {
     @include box-shadow (1);
     grid-area: info-1;
   }
-  .sobre__mi__info2 {
-    @include box-shadow (1);
-    grid-area: info-2;
-  }
-  .sobre__mi__info3 {
+    &__info2 {
+      @include box-shadow (1);
+      grid-area: info-2;
+    }
+      &__info3 {
     grid-area: info-3;
+  }
+  }
+  .header__sobremi {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 150px;
+    color: #c1d5a4;
+    &__titulo {
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  }
+  .card1{
+    width: 100%;
   }
 }

@@ -10,6 +10,35 @@
     padding-top: 50px;
   }
   .recetarios__main {
+    padding-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recetarios__animaciones {
+    padding-top: 50px;
+    text-align: center;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+  }
+  .card{
+    margin: 20px;
+  }
+  /* fin estilos recetarios */
+}
+@media screen and (max-width: 992px){
+  // estilos recetarios
+  .recetarios__encabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color:#c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+    padding-top: 50px;
+  }
+  .recetarios__main {
     padding-top: 100px;
     width: 100%;
     display: flex;
@@ -25,9 +54,11 @@
     animation-timing-function: ease-in;
     animation-duration: 5s;
   }
+  .card{
+    margin: 20px;
+  }
   /* fin estilos recetarios */
 }
-
 // deskstop
 @media (min-width: 992px) {
   /* estilos recetarios */
@@ -58,6 +89,7 @@
   .card {
     text-align: center;
     padding: 10px;
+    margin: 20px;
   }
 
   .recetario__2:hover {

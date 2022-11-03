@@ -25,6 +25,32 @@
     }
   }
 }
+@media screen and (max-width: 992px){
+  .nutricion__title{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    padding-top: 50px;
+    color: #c1d5a4;
+    text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+  }
+  .accordion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    &-header{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    }
+    &-button{
+      font-size: 1.5rem;
+      color: #c1d5a4;
+      text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
+    }
+  }
+}
 // deskstop
 @media (min-width: 992px) {
   /* inicio estilos nutrición */
