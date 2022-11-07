@@ -1,6 +1,6 @@
 // mobile first
 @media screen and (max-width: 768px) {
-  .nutricion__title{
+  .nutricion__title {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
@@ -13,20 +13,20 @@
     padding-bottom: 50px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    &-header{
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    &-header {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
     }
-    &-button{
+    &-button {
       font-size: 1.5rem;
       color: #c1d5a4;
       text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
     }
   }
 }
-@media screen and (max-width: 992px){
-  .nutricion__title{
+@media screen and (max-width: 992px) {
+  .nutricion__title {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
@@ -39,12 +39,12 @@
     padding-bottom: 50px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    &-header{
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    &-header {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
     }
-    &-button{
+    &-button {
       font-size: 1.5rem;
       color: #c1d5a4;
       text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
@@ -57,7 +57,7 @@
   .main__nutricion {
     padding-top: 150px;
   }
-  .nutricion__title{
+  .nutricion__title {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
@@ -70,15 +70,15 @@
     padding-bottom: 50px;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    &-header{
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2rem;
+    &-header {
+      text-align: justify;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
     }
-    &-button{
+    &-button {
       font-size: 1.5rem;
       color: #c1d5a4;
       text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
     }
   }
-  }
+}

@@ -5,7 +5,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     text-align: center;
-    color:#c1d5a4;
+    color: $primary;
     text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
     padding-top: 50px;
   }
@@ -23,18 +23,18 @@
     animation-timing-function: ease-in;
     animation-duration: 5s;
   }
-  .card{
+  .card {
     margin: 20px;
   }
   /* fin estilos recetarios */
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   // estilos recetarios
   .recetarios__encabezado {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     text-align: center;
-    color:#c1d5a4;
+    color: $primary;
     text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
     padding-top: 50px;
   }
@@ -54,7 +54,7 @@
     animation-timing-function: ease-in;
     animation-duration: 5s;
   }
-  .card{
+  .card {
     margin: 20px;
   }
   /* fin estilos recetarios */
@@ -67,7 +67,7 @@
     font-size: 2rem;
     text-align: center;
     padding-top: 150px;
-    color: #c1d5a4;
+    color: $primary;
     text-shadow: 20px 15px 7px rgba(161, 161, 161, 0.579);
   }
   .recetarios__main {
@@ -78,7 +78,7 @@
     grid-template-columns: 300px 300px 300px;
     justify-content: space-around;
     align-items: center;
-    color: #224b0c;
+    color: #40632d;
   }
   .card:hover {
     transform: scale(1.2);
